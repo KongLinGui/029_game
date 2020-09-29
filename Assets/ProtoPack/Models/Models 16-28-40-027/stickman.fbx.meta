@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 4f94880b48fdd46db82735a4a8d7f0be
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: gun
+    100002: Head
+    100004: L_Calf
+    100006: L_Clavicle
+    100008: L_Forearm
+    100010: L_Hand
+    100012: L_Thigh
+    100014: L_UpperArm
+    100016: Neck
+    100018: Pelvis
+    100020: R_Calf
+    100022: R_Clavicle
+    100024: R_Forearm
+    100026: R_Hand
+    100028: R_Thigh
+    100030: R_UpperArm
+    100032: Spine
+    100034: Spine1
+    100036: Spine2
+    100038: //RootNode
+    100040: stickmanGeo
+    400000: gun
+    400002: Head
+    400004: L_Calf
+    400006: L_Clavicle
+    400008: L_Forearm
+    400010: L_Hand
+    400012: L_Thigh
+    400014: L_UpperArm
+    400016: Neck
+    400018: Pelvis
+    400020: R_Calf
+    400022: R_Clavicle
+    400024: R_Forearm
+    400026: R_Hand
+    400028: R_Thigh
+    400030: R_UpperArm
+    400032: Spine
+    400034: Spine1
+    400036: Spine2
+    400038: //RootNode
+    400040: stickmanGeo
+    2300000: gun
+    3300000: gun
+    4300000: gun
+    4300002: stickmanGeo
+    7400000: stickWalk
+    7400002: stickIdle
+    7400004: stickRn
+    9500000: //RootNode
+    13700000: stickmanGeo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: stickWalk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/L_Thigh
+        weight: 1
+      - path: Pelvis/Spine/L_Thigh/L_Calf
+        weight: 1
+      - path: Pelvis/Spine/R_Thigh
+        weight: 1
+      - path: Pelvis/Spine/R_Thigh/R_Calf
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle/L_UpperArm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle/L_UpperArm/L_Forearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle/L_UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm/R_Forearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/gun
+        weight: 1
+      - path: stickmanGeo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: stickIdle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/L_Thigh
+        weight: 1
+      - path: Pelvis/Spine/L_Thigh/L_Calf
+        weight: 1
+      - path: Pelvis/Spine/R_Thigh
+        weight: 1
+      - path: Pelvis/Spine/R_Thigh/R_Calf
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle/L_UpperArm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle/L_UpperArm/L_Forearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle/L_UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm/R_Forearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/gun
+        weight: 1
+      - path: stickmanGeo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: stickRn
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/L_Thigh
+        weight: 1
+      - path: Pelvis/Spine/L_Thigh/L_Calf
+        weight: 1
+      - path: Pelvis/Spine/R_Thigh
+        weight: 1
+      - path: Pelvis/Spine/R_Thigh/R_Calf
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle/L_UpperArm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle/L_UpperArm/L_Forearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/L_Clavicle/L_UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm/R_Forearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Spine2/Neck/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/gun
+        weight: 1
+      - path: stickmanGeo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00300000003
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
